@@ -1,0 +1,389 @@
+body{
+    background-color: #ffffff;
+    margin: 0; /* Menghilangkan margin default */
+    overflow-x: hidden; /* Menghilangkan scroll horizontal */
+    overflow-y: auto; /* Membuat scroll vertikal muncul hanya jika diperlukan */
+}
+
+.offcanvas-custom {
+    background-color: #1B3C73; /* Ganti dengan warna biru sesuai keinginanmu */
+    color: white;
+  }
+
+  .offcanvas-custom .nav-link {
+    color: white;
+  }
+
+  .offcanvas-custom .nav-link:hover {
+    color: #cce4ff;
+  }
+
+  .offcanvas-custom .offcanvas-title,
+  .offcanvas-custom .btn-close {
+    color: white;
+  }
+
+  .btn-close-white {
+    filter: invert(1); /* Bikin tombol close putih */
+  }
+
+.background-navbar {
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+.navbar {
+    background-color: #1B3C73;
+    height: 50px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size : 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #CAF4FF;
+}
+
+
+
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.kolomsatu {
+    margin-top: 35px;
+}
+
+.kolomdua {
+    margin-top: 35px;
+}
+
+.kolomtiga {
+    margin-top: 35px;
+}
+
+.kolomempat {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.kolomlima {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    align-items: center; /* Untuk menempatkan elemen ke tengah secara vertikal */
+    margin-bottom: 20px; /* Jarak antara setiap item */
+}
+
+/* Gambar pertama */
+
+.gambar-satu, .deskripsi-satu {
+    flex: 1;
+    margin: 0 10px; /* Jarak antara gambar dan deskripsi */
+}
+
+.gambar-satu img {
+    max-width: 660px; /* Menghindari gambar melebihi lebar parent */
+}
+
+.deskripsi-satu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Menyusun teks ke kiri */
+    text-align: left; /* Untuk menempatkan teks deskripsi di kiri*/
+}
+
+.deskripsi-satu h2 {
+    margin-bottom: 0px; /* Jarak antara judul dan isi */
+    font-weight: bold;
+    color: #1B3C73;
+}
+
+/* Gambar kedua */
+
+.gambar-dua, .deskripsi-dua {
+    flex: 1;
+    margin: 0 10px; /* Jarak antara gambar dan deskripsi */
+}
+
+.gambar-dua img {
+    max-width: 660px; /* Menghindari gambar melebihi lebar parent */
+}
+
+.deskripsi-dua {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Menyusun teks ke kiri */
+    text-align: right; /* Untuk menempatkan teks deskripsi di kanan */
+}
+
+.deskripsi-dua h2 {
+    margin-bottom: 0px; /* Jarak antara judul dan isi */
+    font-weight: bold;
+    color: #1B3C73;
+}
+
+h2 {
+    margin-bottom: 0px; /* Jarak antara judul dan isi */
+    font-weight: bold;
+    color: #1B3C73;
+}
+
+h1 {
+    margin-bottom: 0px; /* Jarak antara judul dan isi */
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.box {
+    width: 100%;
+    height: 120px;
+    margin-top: 0px;
+    margin-bottom: -60px;
+    background-image: url('Gambar/background.png');
+    background-size: cover;
+}
+
+.footer {
+    background-color: #1B3C73;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.footer-description p {
+    margin: 0; /* Menghilangkan margin bawaan */
+}
+  
+.footer-image img {
+    width: 120px; /* Ukuran maksimum gambar */
+    height: auto; /* Ukuran maksimum gambar */
+}
+
+        .btn.active {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .btn-success {
+            background-color: #28a745 !important; /* Hijau jika jawaban benar */
+        }
+        .btn-danger {
+            background-color: #dc3545 !important; /* Merah jika jawaban salah */
+        }
+
+        /* * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        } */
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        #options-container button {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        #options-container button:hover {
+            background-color: #e2e6ea;
+        }
+        
+         /* Membuat card tampil seperti tombol */
+        .clickable-card {
+            cursor: pointer; /* Menampilkan cursor tangan saat hover */
+            transition: background-color 0.3s ease; /* Transisi untuk perubahan latar belakang */
+        }
+
+        /* Menambahkan perubahan warna saat card di-hover */
+        .clickable-card:hover {
+            background-color: #f0f0f0; /* Latar belakang berubah saat hover */
+        }
+
+        /* Menambahkan efek klik pada card */
+        .clickable-card:active {
+            background-color: #e0e0e0; /* Latar belakang berubah saat card diklik */
+        }
+
+        .bubble-top-center {
+            position: fixed;
+            top: 24%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-100%);
+            background-color: #333;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            opacity: 0;
+            animation: slideDownFade 0.5s ease-out forwards, fadeOutUp 0.5s ease-in 2.5s forwards;
+          }
+          
+          @keyframes slideDownFade {
+            0% {
+              transform: translateX(-50%) translateY(-100%);
+              opacity: 0;
+            }
+            100% {
+              transform: translateX(-50%) translateY(20px);
+              opacity: 1;
+            }
+          }
+          
+          @keyframes fadeOutUp {
+            100% {
+              transform: translateX(-50%) translateY(-50px);
+              opacity: 0;
+            }
+          }
+
+          #question-explanation {
+            display: none; /* Ini penting supaya tidak muncul sekejap saat refresh */
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #d6ffd0;
+            border-radius: 8px;
+            font-style: normal;
+            color: #333;
+            font-size: 16px;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+    
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    
+        #feedback {
+            margin-top: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+    
+        .bubble-top-center {
+            transition: opacity 0.4s ease;
+            opacity: 1;
+        }
+        
+        .bubble-top-center.hide {
+            opacity: 0;
+        }
+        
+        @media (min-width: 991px){
+            .nav-link::before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 0;
+                height: 2px;
+                background-color: #CAF4FF;
+                visibility: hidden;
+                transition: 0.3s ease-in-out;
+            }
+        
+            .nav-link:hover::before {
+                width: 100%;
+                visibility: visible;
+            }
+        }
+
+        @media (max-width: 414px) {
+
+            .grid {
+              grid-template-columns: 1fr;
+            }
+          }
+        
+          .copy-btn {
+            cursor: pointer;
+            margin-left: 8px;
+            color: #6c757d;
+          }
+        
+          .copy-btn:hover {
+            color: #000;
+          }
+        
+          .typing-indicator {
+            font-style: italic;
+            color: gray;
+            animation: blink 1s infinite;
+          }
+        
+          @keyframes blink {
+            0% {opacity: .2;}
+            20% {opacity: 1;}
+            100% {opacity: .2;}
+          }
+          
